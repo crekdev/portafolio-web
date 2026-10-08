@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es-CL">
 <head>
-  <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M3X4PTR04"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -85,6 +85,7 @@
         "addressCountry": "CL"
       },
       "image": "https://cristobalsanhueza.cl/assets/img/cristobal-sanhueza.jpg",
+      "worksFor": { "@type": "Organization", "name": "SimpliRoute", "url": "https://www.simpliroute.com" },
       "alumniOf": [
         { "@type": "CollegeOrUniversity", "name": "Universidad de Santiago de Chile" },
         { "@type": "EducationalOrganization", "name": "Desafío Latam" }
@@ -207,24 +208,30 @@
 }
 </script>
 
+<script>document.documentElement.className+=' js';</script>
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 
-<header class="wrap">
-  <nav class="nav" aria-label="Principal">
-    <a class="marca" href="#inicio">Cristóbal Sanhueza</a>
-    <ul>
-      <li><a href="#resultados">Resultados</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#experiencia">Experiencia</a></li>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#recomendaciones">Recomendaciones</a></li>
-      <li><a href="#preguntas">Preguntas</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
+<header class="cabecera" id="cabecera">
+  <div class="wrap">
+    <nav class="nav" aria-label="Principal">
+      <a class="marca" href="#inicio">Cristóbal Sanhueza</a>
+      <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú" hidden>
+        <span class="burger-raya"></span><span class="burger-raya"></span><span class="burger-raya"></span>
+      </button>
+      <ul id="menu">
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#recomendaciones">Recomendaciones</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main id="contenido">
@@ -270,7 +277,7 @@
           <text x="266" y="350">pero buenos</text>
           <text x="304" y="462">reuniones:</text>
           <text x="304" y="490">+60%</text>
-          <text x="304" y="518">product fit*</text>
+          <text x="304" y="518">product fit</text>
         </g>
         <path d="M262 330 C250 334 244 340 240 348" fill="none" stroke="#38535C" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"/>
         <path d="M240 338 L240 349 L251 347" fill="none" stroke="#38535C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
@@ -320,7 +327,7 @@
       <article class="r r6">
         <span class="fig">857</span>
         <h3>Reuniones comerciales en 12 meses, 70% con product fit</h3>
-        <p>Reuniones primer contacto en un año, en una operación con seis países. El 55% llegó desde Google Ads y Meta Ads.</p>
+        <p>Reuniones de primer contacto en un año, en una operación con seis países. El 55% llegó desde Google Ads y Meta Ads.</p>
       </article>
 
       <aside class="honesto" aria-labelledby="t-honesto">
@@ -354,21 +361,21 @@
         <h3>Auditoría de calidad de lead y atribución</h3>
         <div>
           <p>Defino con marketing y ventas qué es un lead válido y un SQL, reviso UTMs y atribución en el CRM, y detecto leads perdidos o mal clasificados.</p>
-          <span class="prueba">Prueba: Definí las reglas de negocio (lead válido, SQL, atribución por UTM) que usa todo el equipo, y corregí errores en Salesforce como el cambio de horario de verano en el corte mensual y leads de países sin sincronizar para ser atendidos por SDRs.</span>
+          <span class="prueba">Prueba: definí las reglas de negocio (lead válido, SQL, atribución por UTM) que usa todo el equipo, y corregí errores en Salesforce como el cambio de horario de verano en el corte mensual y leads de países sin sincronizar para ser atendidos por SDRs.</span>
         </div>
       </article>
       <article class="svc">
         <h3>Dashboards y reportes automáticos de marketing</h3>
         <div>
           <p>Un dashboard diario conectado a las plataformas de anuncios y al CRM, y un reporte mensual con reconciliación de presupuesto e insights.</p>
-          <span class="prueba">Prueba: Diseñé y desarollé un dashboard diario automático con Windsor.ai y Salesforce, complementado con un reporte mensual de Paid Media automatizado.</span>
+          <span class="prueba">Prueba: diseñé y desarrollé un dashboard diario automático con Windsor.ai y Salesforce, complementado con un reporte mensual de Paid Media automatizado.</span>
         </div>
       </article>
       <article class="svc">
         <h3>Automatización de RevOps y marketing</h3>
         <div>
           <p>Flujos entre el CRM, WhatsApp y Slack: primer contacto automático, ruteo por ejecutivo y zona horaria, y nurturing de leads pequeños. Migraciones de Zapier a ActivePieces.</p>
-          <span class="prueba">Prueba: Flujos de RevOps en producción con foco en mejorar tasa de respuesta a prospectos (Salesforce, ManyChat y Slack), migrados de Zapier a ActivePieces, y flujos en HubSpot enfocadas en nurturing y acciones del prospecto en el journey.</span>
+          <span class="prueba">Prueba: flujos de RevOps en producción con foco en mejorar tasa de respuesta a prospectos (Salesforce, ManyChat y Slack), migrados de Zapier a ActivePieces, y flujos en HubSpot enfocadas en nurturing y acciones del prospecto en el journey.</span>
         </div>
       </article>
       <article class="svc">
@@ -382,7 +389,7 @@
         <h3>Plan de inversión Paid y análisis de competencia</h3>
         <div>
           <p>Análisis de los canales pagos de la competencia y propuesta de reparto de presupuesto entre Google, Meta y LinkedIn, con análisis de riesgo.</p>
-          <span class="prueba">Prueba: Creación del plan de inversión Paid anual y por Q, más análisis de competidores en las compañias que he colaborado.</span>
+          <span class="prueba">Prueba: creación del plan de inversión Paid anual y por Q, más análisis de competidores en las compañías en que he colaborado.</span>
         </div>
       </article>
     </div>
@@ -452,7 +459,7 @@
         <div class="cuando">2021 a 2022<small>Remoto</small></div>
         <div>
           <h3>SEM y SEO Specialist, líder de Performance Marketing</h3>
-          <p class="org">Crack The Code | Empresa Edtech para jóvenes y niñps</p>
+          <p class="org">Crack The Code | Empresa Edtech para jóvenes y niños</p>
           <ul>
             <li>Diseñé la estrategia SEO y SEM y gestioné campañas en Google Ads, Facebook Ads y LinkedIn Ads.</li>
             <li>Aumenté <mark>52% los leads por plataformas pagas</mark>, bajé 25% el costo por lead y subí 32% la calidad de los leads.</li>

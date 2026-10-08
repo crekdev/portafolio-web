@@ -6,6 +6,47 @@
   }
   if(h){tick();setInterval(tick,30000);}
 
+  /* menú fijo: sombra al bajar, hamburguesa en móvil y sección activa */
+  var cab=document.getElementById('cabecera');
+  var nav=cab&&cab.querySelector('.nav');
+  var burger=document.getElementById('burger');
+  var menu=document.getElementById('menu');
+  if(cab){
+    var sombra=function(){cab.classList.toggle('con-sombra',(window.pageYOffset||document.documentElement.scrollTop)>8);};
+    sombra();window.addEventListener('scroll',sombra,{passive:true});
+  }
+  if(nav&&burger&&menu){
+    burger.hidden=false;
+    var movil=window.matchMedia('(max-width: 860px)');
+    var fijar=function(abrir){
+      nav.classList.toggle('abierto',abrir);
+      burger.setAttribute('aria-expanded',abrir?'true':'false');
+      burger.setAttribute('aria-label',abrir?'Cerrar menú':'Abrir menú');
+    };
+    burger.addEventListener('click',function(){fijar(burger.getAttribute('aria-expanded')!=='true');});
+    menu.addEventListener('click',function(e){if(e.target.closest('a')){fijar(false);}});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&burger.getAttribute('aria-expanded')==='true'){fijar(false);burger.focus();}});
+    document.addEventListener('click',function(e){if(!nav.contains(e.target)){fijar(false);}});
+    var cambio=function(){if(!movil.matches){fijar(false);}};
+    if(movil.addEventListener){movil.addEventListener('change',cambio);}else if(movil.addListener){movil.addListener(cambio);}
+  }
+  if(menu&&'IntersectionObserver' in window){
+    var enlaces={};
+    [].forEach.call(menu.querySelectorAll('a[href^="#"]'),function(a){enlaces[a.getAttribute('href').slice(1)]=a;});
+    var activo=null;
+    var obs=new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(en.isIntersecting&&enlaces[en.target.id]){
+          if(activo){activo.removeAttribute('aria-current');}
+          activo=enlaces[en.target.id];activo.setAttribute('aria-current','true');
+        }
+      });
+    },{rootMargin:'-30% 0px -60% 0px'});
+    Object.keys(enlaces).forEach(function(id){var sec=document.getElementById(id);if(sec){obs.observe(sec);}});
+    var inicio=document.getElementById('inicio');
+    if(inicio){new IntersectionObserver(function(es){if(es[0].isIntersecting&&activo){activo.removeAttribute('aria-current');activo=null;}},{rootMargin:'-30% 0px -60% 0px'}).observe(inicio);}
+  }
+
   /* embudo: muchos leads entran, pocos pasan el filtro */
   var svg=document.getElementById('embudo');
   var btn=document.getElementById('repetir');

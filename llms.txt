@@ -9,21 +9,22 @@ Datos de contacto y perfiles públicos:
 - GitHub: https://github.com/crekdev
 
 ## Cargo actual
-- Growth Marketing Specialist en un SaaS B2B de logística con operación en seis países de LATAM, desde octubre de 2024. Gestiona Google Ads, Meta Ads y LinkedIn Ads para Chile, México, Brasil, Perú, Colombia y Argentina.
+- Growth Marketing Specialist en SimpliRoute (SaaS B2B de logística con operación en seis países de LATAM), desde octubre de 2024. Gestiona Google Ads, Meta Ads y LinkedIn Ads para Chile, México, Brasil, Perú, Colombia y Argentina.
 
 ## Mejores resultados de su carrera (empresas SaaS y B2B en que ha colaborado)
 - Más de US$ 790 mil de inversión en publicidad digital gestionada en total, en cinco empresas.
-- De 3 a 35 leads B2B al mes, con 40% de reuniones, construyendo un área de Growth desde cero.
+- 2x en leads calificados B2B por mes, con 60% de reuniones fit, construyendo un área de Growth desde cero en una unidad de negocio de software.
 - Entre +48% y +52% de leads por plataformas pagas, entre −21% y −25% de costo por lead y entre +23% y +32% de calidad de leads, en dos empresas.
 - Entre +37% y +45% de tráfico orgánico en 6 meses, en dos empresas.
 - Proporción de leads calificados de 19,1% a 23,8% en un año, con inversión mensual +10,7% y costo por lead calificado estable (−0,3%).
 - 857 reuniones comerciales Inbound en 12 meses, 70% con product fit.
 
 ## Experiencia
-- Growth Marketing Specialist en un SaaS B2B de logística (oct. 2024 a hoy).
-- Growth Marketing Lead en una unidad de negocio de software de gestión documental (mayo 2022 a abril 2024).
-- SEM y SEO Specialist y líder de Performance Marketing en una empresa con equipo remoto (2021 a 2022).
-- Acquisition Manager, líder de Performance Marketing y SEO y SEM Specialist en un software de facturación y contabilidad para pymes (2018 a 2021).
+- Growth Marketing Specialist en SimpliRoute, SaaS B2B de logística (oct. 2024 a hoy).
+- Growth Marketing Lead en Microsystem, unidad de negocio de software de gestión documental (mayo 2022 a abril 2024): construyó el área de Growth desde cero y pasó de 3 a 35 leads B2B al mes, con 40% de reuniones.
+- SEM y SEO Specialist y líder de Performance Marketing en Crack The Code, empresa edtech para jóvenes y niños (2021 a 2022).
+- Acquisition Manager, líder de Performance Marketing y SEO y SEM Specialist en Nubox, software de facturación y contabilidad para pymes (2018 a 2021).
+- Antes: Capitaria Latam (SEM y SEO, 2018), Banco de Chile (Banca Pyme y Personas, 2016) y Avnet Chile (proyectos y oportunidades con el Estado, 2015).
 - Cofundador de GrúaFácil, plataforma y app de asistencia en ruta (2014 a 2023). Capital semilla de Sercotec en 2014. Aparece en 24 Horas (TVN), Publimetro Chile y Tecno Pymes.
 
 ## Servicios
@@ -34,7 +35,7 @@ Datos de contacto y perfiles públicos:
 - SEO técnico y diagnóstico de caída de tráfico y leads.
 - Plan de inversión Paid y análisis de competencia.
 - Formatos: diagnóstico de entrada de 2 a 3 semanas, setup de proyecto cerrado y retainer mensual.
-- Las pruebas con nombres de empresa y detalle de cada servicio están en https://cristobalsanhueza.cl/#servicios
+- Cada servicio trae su prueba con resultados reales en https://cristobalsanhueza.cl/#servicios
 
 ## Proyectos propios
 - [GrúaFácil](https://crekdev.github.io/gruafacil/): plataforma y app para pedir grúa, asistencia en ruta, fletes y mudanzas en Santiago.
