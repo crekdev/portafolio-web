@@ -254,8 +254,23 @@ html{scroll-padding-top:84px}
 .foto img{display:block;width:100%;height:auto;border-radius:6px 12px 6px 10px}
 .foto figcaption{font-size:1.5rem;text-align:center;padding-top:6px;transform:rotate(-1deg)}
 .contacto h2{font-size:clamp(2.2rem,5.4vw,4.4rem);max-width:15ch}
-.correo{display:inline-block;margin:26px 0 8px;font-family:var(--serif);font-size:clamp(1.3rem,3.2vw,2.4rem);color:var(--tinta);text-decoration-thickness:3px;text-decoration-color:var(--senal);word-break:break-word}
-.correo:hover{background:var(--senal)}
+.formulario{position:relative;margin-top:28px;max-width:640px;background:var(--papel-claro);padding:28px 26px 24px;border-radius:var(--borde-b);box-shadow:5px 6px 0 rgba(14,42,51,.16);transform:rotate(-.4deg)}
+.formulario::before{content:"";position:absolute;top:-13px;left:40px;width:84px;height:24px;background:rgba(246,201,21,.8);transform:rotate(-3deg)}
+.campos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px}
+.campo{margin:0;max-width:none}
+.campo--ancho{grid-column:1 / -1}
+.campo label{display:block;font-weight:600;font-size:.95rem;margin-bottom:6px}
+.campo .opc{font-weight:400;color:var(--tinta-suave)}
+.campo input,.campo select,.campo textarea{width:100%;font:inherit;color:var(--tinta);background:var(--papel);border:2px solid var(--tinta);border-radius:var(--borde-a);padding:.62em .8em}
+.campo textarea{resize:vertical;min-height:120px;border-radius:var(--borde-b)}
+.campo input:focus-visible,.campo select:focus-visible,.campo textarea:focus-visible{outline:3px solid var(--ruta);outline-offset:2px;background:#fff}
+.trampa{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.envio{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:20px}
+.envio .btn{cursor:pointer;font:inherit;font-weight:600}
+.envio .btn[disabled]{opacity:.6;cursor:progress}
+.estado-envio{margin:0;font-weight:600;max-width:34ch}
+.estado-envio.ok{color:#14613A}
+.estado-envio.error{color:#9B2C1F}
 .contacto .redes{margin-top:18px}
 .pie{padding-block:28px 96px;color:var(--tinta-suave);font-size:.95rem}
 .pie .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between;align-items:baseline}
@@ -284,9 +299,11 @@ html{scroll-padding-top:84px}
   .herr{grid-template-columns:1fr}
   .pitch,.pitch + .cta{margin-left:0}
   .contacto-grid{grid-template-columns:1fr}
+  .formulario{transform:none}
   .foto{max-width:300px;justify-self:start;margin-top:12px}
 }
 @media (max-width:560px){
+  .campos{grid-template-columns:1fr}
   body{font-size:1rem}
   .slips{columns:1}
   .wa{width:58px;height:58px;padding:0;justify-content:center;border-radius:30px 16px 28px 14px / 16px 28px 14px 30px}

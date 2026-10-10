@@ -246,7 +246,7 @@
       <h1 id="titulo">Growth y Performance Marketing para SaaS B2B en LATAM</h1>
       <p class="lede">Soy Cristóbal Sanhueza, Growth Marketer y Performance Marketing Specialist en Viña del Mar, Chile. Hace más de 12 años hago crecer empresas con Google Ads, Meta Ads, LinkedIn Ads, SEO y automatización de marketing y ventas. Mi foco son los leads calificados que terminan en reuniones comerciales, no el volumen que se ve bien en un reporte.</p>
       <div class="acciones">
-        <a class="btn" href="https://wa.me/56973951304?text=Hola%2C%20te%20contacto%20desde%20cristobalsanhueza.cl">Escríbeme</a>
+        <a class="btn" href="#contacto">Escríbeme</a>
         <a class="btn btn--sec" href="#servicios">Ver servicios</a>
       </div>
       <div class="redes">
@@ -765,8 +765,27 @@
   <div class="wrap contacto-grid">
    <div>
     <h2 id="t-contacto">Hablemos de tu embudo de leads</h2>
-    <p style="margin-top:18px">Si tu equipo invierte en ads y no tiene claro cuántos de esos leads sirven, puedo ayudarte a ordenarlo. También puedes escribirme por una oportunidad de cargo.</p>
-    <a class="correo" href="mailto:cristobal.sanrodriguez@gmail.com?subject=Consulta%20desde%20cristobalsanhueza.cl">cristobal.sanrodriguez@gmail.com</a>
+    <p style="margin-top:18px">Si tu equipo invierte en ads y no tiene claro cuántos de esos leads sirven, puedo ayudarte a ordenarlo. También puedes escribirme por una oportunidad de cargo. Déjame tus datos y te respondo por correo.</p>
+    <form class="formulario" id="form-contacto" name="contacto" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="campo-trampa">
+      <input type="hidden" name="form-name" value="contacto">
+      <p class="trampa" aria-hidden="true"><label>No completar este campo: <input name="campo-trampa" tabindex="-1" autocomplete="off"></label></p>
+      <div class="campos">
+        <p class="campo"><label for="f-nombre">Nombre</label><input id="f-nombre" name="nombre" type="text" autocomplete="name" required></p>
+        <p class="campo"><label for="f-email">Correo</label><input id="f-email" name="email" type="email" autocomplete="email" required></p>
+        <p class="campo"><label for="f-empresa">Empresa <span class="opc">(opcional)</span></label><input id="f-empresa" name="empresa" type="text" autocomplete="organization"></p>
+        <p class="campo"><label for="f-motivo">Motivo</label>
+          <select id="f-motivo" name="motivo">
+            <option>Consultoría o proyecto</option>
+            <option>Oferta de cargo</option>
+            <option>Otro</option>
+          </select></p>
+        <p class="campo campo--ancho"><label for="f-mensaje">Cuéntame tu caso</label><textarea id="f-mensaje" name="mensaje" rows="5" required></textarea></p>
+      </div>
+      <div class="envio">
+        <button class="btn" type="submit">Enviar mensaje</button>
+        <p class="estado-envio" id="estado-envio" role="status" aria-live="polite"></p>
+      </div>
+    </form>
     <div class="redes">
       <a href="https://wa.me/56973951304?text=Hola%2C%20te%20contacto%20desde%20cristobalsanhueza.cl" rel="noopener">WhatsApp</a>
       <a href="https://www.linkedin.com/in/cristobal-sanhueza-rodriguez" rel="me noopener">LinkedIn</a>

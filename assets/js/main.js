@@ -47,6 +47,31 @@
     if(inicio){new IntersectionObserver(function(es){if(es[0].isIntersecting&&activo){activo.removeAttribute('aria-current');activo=null;}},{rootMargin:'-30% 0px -60% 0px'}).observe(inicio);}
   }
 
+  /* formulario de contacto (Netlify Forms) */
+  var form=document.getElementById('form-contacto');
+  var estado=document.getElementById('estado-envio');
+  if(form&&window.fetch&&window.URLSearchParams){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var boton=form.querySelector('button[type="submit"]');
+      var datos=new URLSearchParams(new FormData(form)).toString();
+      if(boton){boton.disabled=true;}
+      estado.className='estado-envio';estado.textContent='Enviando...';
+      fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:datos})
+        .then(function(r){
+          if(!r.ok){throw new Error('status '+r.status);}
+          form.reset();
+          estado.className='estado-envio ok';
+          estado.textContent='Gracias, recibí tu mensaje. Te respondo por correo lo antes posible.';
+        })
+        .catch(function(){
+          estado.className='estado-envio error';
+          estado.textContent='No pude enviar el mensaje. Intenta de nuevo o escríbeme por WhatsApp.';
+        })
+        .then(function(){if(boton){boton.disabled=false;}});
+    });
+  }
+
   /* embudo: muchos leads entran, pocos pasan el filtro */
   var svg=document.getElementById('embudo');
   var btn=document.getElementById('repetir');
