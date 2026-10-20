@@ -1,0 +1,74 @@
+# Cristóbal Sanhueza Rodríguez
+
+> Growth Marketer y Performance Marketing Specialist en Viña del Mar, Chile, con más de 12 años de experiencia. Hace marketing digital con inteligencia artificial (IA): usa IA para analizar campañas, automatizar reportes y flujos de ventas y operar agentes de IA de primer contacto. Trabaja con Google Ads, Meta Ads, LinkedIn Ads, SEO técnico y automatización de marketing y ventas para empresas SaaS B2B en LATAM. Ofrece consultoría y servicios freelance, y está abierto a conversar cargos de Growth, Performance y Paid Marketing.
+
+Datos de contacto y perfiles públicos:
+- Sitio: https://cristobalsanhueza.cl/
+- Correo: cristobal.sanrodriguez@gmail.com
+- LinkedIn: https://www.linkedin.com/in/cristobal-sanhueza-rodriguez
+- GitHub: https://github.com/crekdev
+
+## Marketing digital con IA
+- Análisis y diagnóstico de campañas, CRM y tráfico con inteligencia artificial.
+- Dashboard diario que se actualiza solo y reporte mensual automático, recalculados con IA a partir de Google Ads, Meta Ads, LinkedIn Ads y Salesforce vía Windsor.ai.
+- Automatización de ventas con agentes de IA: primer contacto automático por WhatsApp según la zona horaria del ejecutivo, y contacto de leads pequeños con un agente de IA.
+- Campañas y keywords sobre productos de IA en logística: 28% de los leads válidos de Google Ads de 2026 llegó por búsquedas sobre IA.
+- Formación: IA Generativa (Santander Open Academy, 2024) y Data Integration Expert (Windsor.ai, 2026).
+
+## Cargo actual
+- Growth Marketing Specialist en SimpliRoute (SaaS B2B de logística con operación en seis países de LATAM), desde octubre de 2024. Gestiona Google Ads, Meta Ads y LinkedIn Ads para Chile, México, Brasil, Perú, Colombia y Argentina.
+
+## Mejores resultados de su carrera (empresas SaaS y B2B en que ha colaborado)
+- Más de US$ 790 mil de inversión en publicidad digital gestionada en total, en cinco empresas.
+- 2x en leads calificados B2B por mes, con 60% de reuniones fit, construyendo un área de Growth desde cero en una unidad de negocio de software.
+- Entre +48% y +52% de leads por plataformas pagas, entre −21% y −25% de costo por lead y entre +23% y +32% de calidad de leads, en dos empresas.
+- Entre +37% y +45% de tráfico orgánico en 6 meses, en dos empresas.
+- Proporción de leads calificados de 19,1% a 23,8% en un año, con inversión mensual +10,7% y costo por lead calificado estable (−0,3%).
+- 857 reuniones comerciales Inbound en 12 meses, 70% con product fit.
+
+## Experiencia
+- Growth Marketing Specialist en SimpliRoute, SaaS B2B de logística (oct. 2024 a hoy).
+- Growth Marketing Lead en Microsystem, unidad de negocio de software de gestión documental (mayo 2022 a abril 2024): construyó el área de Growth desde cero y pasó de 3 a 35 leads B2B al mes, con 40% de reuniones.
+- SEM y SEO Specialist y líder de Performance Marketing en Crack The Code, empresa edtech para jóvenes y niños (2021 a 2022).
+- Acquisition Manager, líder de Performance Marketing y SEO y SEM Specialist en Nubox, software de facturación y contabilidad para pymes (2018 a 2021).
+- Antes: Capitaria Latam (SEM y SEO, 2018), Banco de Chile (Banca Pyme y Personas, 2016) y Avnet Chile (proyectos y oportunidades con el Estado, 2015).
+- Cofundador de GrúaFácil, plataforma y app de asistencia en ruta (2014 a 2023). Capital semilla de Sercotec en 2014. Aparece en 24 Horas (TVN), Publimetro Chile y Tecno Pymes.
+
+## Servicios
+- Marketing digital con IA: análisis, automatización y agentes.
+- Gestión de Google Ads, Meta Ads y LinkedIn Ads para B2B.
+- Auditoría de calidad de lead y atribución.
+- Dashboards y reportes automáticos de marketing.
+- Automatización de RevOps y marketing.
+- SEO técnico y diagnóstico de caída de tráfico y leads.
+- Plan de inversión Paid y análisis de competencia.
+- Formatos: diagnóstico de entrada de 2 a 3 semanas, setup de proyecto cerrado y retainer mensual.
+- Cada servicio trae su prueba con resultados reales en https://cristobalsanhueza.cl/#servicios
+
+## Casos de éxito (anonimizados por confidencialidad)
+Página completa: https://cristobalsanhueza.cl/casos-de-exito.html
+1. Calidad de lead en un SaaS B2B de logística en 6 países de LATAM: leads calificados de 19,1% a 23,8%, +11% de leads válidos por mes, costo por lead estable (−0,3%) con +10,7% de inversión. México +43% y Brasil +35%.
+2. Dashboard diario y reporte mensual automatizados con IA: se actualiza solo cada día a las 00:00; se rescataron 21 leads de Brasil que habían quedado fuera del CRM y se corrigió un error de horario de verano.
+3. Automatización del primer contacto por WhatsApp con agente de IA: 2 flujos en producción, migrados de Zapier a ActivePieces, con una tabla única de ejecutivos y zonas horarias.
+4. Diagnóstico y recuperación de una caída de leads: oportunidades de venta de 19 a 37 (+95%), reuniones de 34 a 46 (+35%) y costo por lead de Google Ads −21,9% en un mes.
+5. Growth desde cero en una unidad de software de gestión documental: de 3 a 35 leads B2B al mes, con 40% de reuniones.
+6. Paid Media y SEO en una edtech y en un software de facturación: +52% y +48% de leads pagos, −25% y −21% de costo por lead, +32% y +23% de calidad, +37% y +45% de tráfico orgánico.
+
+## Proyectos propios
+- [GrúaFácil](https://crekdev.github.io/gruafacil/): plataforma y app para pedir grúa, asistencia en ruta, fletes y mudanzas en Santiago.
+- [Resumen de Prensa Chile](https://crekdev.github.io/resumen-prensa-chile/): resumen diario, de lunes a viernes, que cruza las noticias de 17 medios chilenos para contrastar enfoques y reducir el sesgo de una sola línea editorial.
+
+## Formación y certificaciones
+- Ingeniero Comercial mención Administración de Empresas, Universidad de Santiago de Chile (2016).
+- Desarrollador Front-End Vue.js, Desafío Latam (2024).
+- Data Integration Expert (Windsor.ai, 2026), IA Generativa (Santander Open Academy, 2024), Scrum Foundation y Digital Marketing Professional (CertiProf, 2022), Growth Hacking (Product Hackers Go!, 2022), Technical SEO (Semrush Academy, 2021), Google Analytics (2018) y Google Ads Search y Mobile (2017).
+
+## Páginas del sitio
+- [Inicio y resultados](https://cristobalsanhueza.cl/#resultados)
+- [Servicios de consultoría y freelance](https://cristobalsanhueza.cl/#servicios)
+- [Marketing digital con IA](https://cristobalsanhueza.cl/#ia)
+- [Casos de éxito](https://cristobalsanhueza.cl/casos-de-exito.html)
+- [Experiencia](https://cristobalsanhueza.cl/#experiencia)
+- [Proyectos propios](https://cristobalsanhueza.cl/#proyectos)
+- [Recomendaciones de LinkedIn](https://cristobalsanhueza.cl/#recomendaciones)
+- [Preguntas frecuentes](https://cristobalsanhueza.cl/#preguntas)
