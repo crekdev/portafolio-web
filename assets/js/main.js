@@ -17,7 +17,7 @@
   }
   if(nav&&burger&&menu){
     burger.hidden=false;
-    var movil=window.matchMedia('(max-width: 860px)');
+    var movil=window.matchMedia('(max-width: 1160px)');
     var fijar=function(abrir){
       nav.classList.toggle('abierto',abrir);
       burger.setAttribute('aria-expanded',abrir?'true':'false');
