@@ -19,6 +19,7 @@ Datos de contacto y perfiles públicos:
 - Growth Marketing Specialist en SimpliRoute (SaaS B2B de logística con operación en seis países de LATAM), desde octubre de 2024. Gestiona Google Ads, Meta Ads y LinkedIn Ads para Chile, México, Brasil, Perú, Colombia y Argentina.
 
 ## Mejores resultados de su carrera (empresas SaaS y B2B en que ha colaborado)
+- Con 15% menos de inversión en Paid, 43% más leads válidos (de 647 a 924) y 41% menos costo por lead válido, del 1 de enero al 19 de octubre de 2026 frente al mismo período de 2025, con la compañía completa (Latam y Brasil) y Google, Meta y LinkedIn Ads. La proporción de leads válidos que vienen de Paid subió de 51% a 66%.
 - Más de US$ 790 mil de inversión en publicidad digital gestionada en total, en cinco empresas.
 - 2x en leads calificados B2B por mes, con 60% de reuniones fit, construyendo un área de Growth desde cero en una unidad de negocio de software.
 - Entre +48% y +52% de leads por plataformas pagas, entre −21% y −25% de costo por lead y entre +23% y +32% de calidad de leads, en dos empresas.
@@ -47,12 +48,13 @@ Datos de contacto y perfiles públicos:
 
 ## Casos de éxito (anonimizados por confidencialidad)
 Página completa: https://cristobalsanhueza.cl/casos-de-exito.html
-1. Calidad de lead en un SaaS B2B de logística en 6 países de LATAM: leads calificados de 19,1% a 23,8%, +11% de leads válidos por mes, costo por lead estable (−0,3%) con +10,7% de inversión. México +43% y Brasil +35%.
-2. Dashboard diario y reporte mensual automatizados con IA: se actualiza solo cada día a las 00:00; se rescataron 21 leads de Brasil que habían quedado fuera del CRM y se corrigió un error de horario de verano.
-3. Automatización del primer contacto por WhatsApp con agente de IA: 2 flujos en producción, migrados de Zapier a ActivePieces, con una tabla única de ejecutivos y zonas horarias.
-4. Diagnóstico y recuperación de una caída de leads: oportunidades de venta de 19 a 37 (+95%), reuniones de 34 a 46 (+35%) y costo por lead de Google Ads −21,9% en un mes.
-5. Growth desde cero en una unidad de software de gestión documental: de 3 a 35 leads B2B al mes, con 40% de reuniones.
-6. Paid Media y SEO en una edtech y en un software de facturación: +52% y +48% de leads pagos, −25% y −21% de costo por lead, +32% y +23% de calidad, +37% y +45% de tráfico orgánico.
+1. Tácticas de Paid Media que bajaron el costo por lead válido (reactivar Meta Ads, Google Ads con menos clics y más calificados, menos LinkedIn Ads): con 15% menos de inversión, 43% más leads válidos de Paid (647 a 924) y 41% menos costo por lead válido, del 1 de enero al 19 de octubre de 2026 frente a 2025; Paid pasó de 51% a 66% de los leads válidos.
+2. Calidad de lead en un SaaS B2B de logística en 6 países de LATAM: leads calificados de 19,1% a 23,8%, +11% de leads válidos por mes, costo por lead estable (−0,3%) con +10,7% de inversión. México +43% y Brasil +35%.
+3. Dashboard diario y reporte mensual automatizados con IA: se actualiza solo cada día a las 00:00; se rescataron 21 leads de Brasil que habían quedado fuera del CRM y se corrigió un error de horario de verano.
+4. Automatización del primer contacto por WhatsApp con agente de IA: 2 flujos en producción, migrados de Zapier a ActivePieces, con una tabla única de ejecutivos y zonas horarias.
+5. Diagnóstico y recuperación de una caída de leads: oportunidades de venta de 19 a 37 (+95%), reuniones de 34 a 46 (+35%) y costo por lead de Google Ads −21,9% en un mes.
+6. Growth desde cero en una unidad de software de gestión documental: de 3 a 35 leads B2B al mes, con 40% de reuniones.
+7. Paid Media y SEO en una edtech y en un software de facturación: +52% y +48% de leads pagos, −25% y −21% de costo por lead, +32% y +23% de calidad, +37% y +45% de tráfico orgánico.
 
 ## Proyectos propios
 - [GrúaFácil](https://crekdev.github.io/gruafacil/): plataforma y app para pedir grúa, asistencia en ruta, fletes y mudanzas en Santiago.
@@ -68,7 +70,9 @@ Página completa: https://cristobalsanhueza.cl/casos-de-exito.html
 - [Servicios de consultoría y freelance](https://cristobalsanhueza.cl/#servicios)
 - [Marketing digital con IA](https://cristobalsanhueza.cl/#ia)
 - [Casos de éxito](https://cristobalsanhueza.cl/casos-de-exito.html)
-- [Experiencia](https://cristobalsanhueza.cl/#experiencia)
-- [Proyectos propios](https://cristobalsanhueza.cl/#proyectos)
+- [Sobre mí: experiencia, proyectos propios, herramientas, certificaciones y formación](https://cristobalsanhueza.cl/sobre-mi.html)
+- [Experiencia en empresas](https://cristobalsanhueza.cl/sobre-mi.html#experiencia)
+- [Proyectos propios](https://cristobalsanhueza.cl/sobre-mi.html#proyectos)
+- [Herramientas, certificaciones y formación](https://cristobalsanhueza.cl/sobre-mi.html#herramientas)
 - [Recomendaciones de LinkedIn](https://cristobalsanhueza.cl/#recomendaciones)
 - [Preguntas frecuentes](https://cristobalsanhueza.cl/#preguntas)

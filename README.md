@@ -5,7 +5,8 @@ Sitio estático (HTML, CSS y JavaScript sin dependencias), pensado para publicar
 ```
 portafolio-web/
 ├── index.html            Estructura, contenido y datos estructurados (JSON-LD)
-├── casos-de-exito.html   Seis casos de éxito anonimizados, con gráficos SVG y formulario
+├── casos-de-exito.html   Siete casos de éxito anonimizados, con gráficos SVG y formulario
+├── sobre-mi.html         Experiencia, proyectos propios, herramientas, certificaciones y formación, con formulario
 ├── gracias.html          Página de confirmación del formulario (noindex)
 ├── robots.txt            Reglas para buscadores y crawlers de IA
 ├── sitemap.xml           Mapa del sitio
@@ -18,4 +19,4 @@ portafolio-web/
 
 robots.txt, sitemap.xml y llms.txt deben quedar en la raíz del sitio. Las rutas de assets son relativas, así que el sitio funciona igual abierto desde el disco o publicado.
 
-La página casos-de-exito.html usa los mismos estilos y el mismo JavaScript. Su formulario se llama contacto-casos en Netlify Forms (el del inicio se llama contacto), así que aparecen como dos formularios distintos en el panel.
+La página casos-de-exito.html usa los mismos estilos y el mismo JavaScript. Su formulario se llama contacto-casos en Netlify Forms (el del inicio se llama contacto) y el de sobre-mi.html se llama contacto-sobre-mi, así que aparecen como tres formularios distintos en el panel.
