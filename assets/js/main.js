@@ -72,6 +72,58 @@
     });
   }
 
+  /* resultados: contadores y gráficos que aparecen al entrar en pantalla */
+  var res=document.getElementById('resultados');
+  if(res){
+    var quieto=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var NUM=/\d{1,3}(?:\.\d{3})+|\d+(?:,\d+)?/g;
+    var preparar=function(el){
+      var txt=el.textContent,partes=[],m;NUM.lastIndex=0;
+      while((m=NUM.exec(txt))){
+        var crudo=m[0],miles=crudo.indexOf('.')>-1&&crudo.indexOf(',')<0;
+        var dec=crudo.indexOf(',')>-1?crudo.split(',')[1].length:0;
+        var valor=parseFloat(crudo.replace(/\./g,'').replace(',','.'));
+        partes.push({ini:m.index,fin:m.index+crudo.length,valor:valor,dec:dec,miles:miles});
+      }
+      return {el:el,txt:txt,partes:partes};
+    };
+    var fmt=function(v,p){
+      var s=v.toFixed(p.dec);
+      if(p.dec){s=s.replace('.',',');}
+      else if(p.miles){s=s.replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
+      return s;
+    };
+    var contar=function(o){
+      if(!o.partes.length){return;}
+      var t0=null,dur=1400;
+      var paso=function(t){
+        if(t0===null){t0=t;}
+        var k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3),out='',pos=0;
+        o.partes.forEach(function(p){out+=o.txt.slice(pos,p.ini)+fmt(p.valor*e,p);pos=p.fin;});
+        out+=o.txt.slice(pos);
+        o.el.textContent=k<1?out:o.txt;
+        if(k<1){requestAnimationFrame(paso);}
+      };
+      requestAnimationFrame(paso);
+    };
+    var cifras=[].map.call(res.querySelectorAll('.fig'),preparar);
+    var bloques=[].slice.call(res.querySelectorAll('.r,.mini li,.honesto'));
+    var porBloque=function(b){return cifras.filter(function(o){return b.contains(o.el);});};
+    if('IntersectionObserver' in window&&!quieto){
+      var visto=new IntersectionObserver(function(es){
+        es.forEach(function(en){
+          if(!en.isIntersecting){return;}
+          visto.unobserve(en.target);
+          en.target.classList.add('en-vista');
+          porBloque(en.target).forEach(contar);
+        });
+      },{threshold:.35});
+      bloques.forEach(function(b){visto.observe(b);});
+    }else{
+      bloques.forEach(function(b){b.classList.add('en-vista');});
+    }
+  }
+
   /* embudo: muchos leads entran, pocos pasan el filtro */
   var svg=document.getElementById('embudo');
   var btn=document.getElementById('repetir');

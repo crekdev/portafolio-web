@@ -463,3 +463,44 @@ html{scroll-padding-top:84px}
 @media (max-width:1020px){.grupos{grid-template-columns:repeat(2,minmax(0,1fr))}.hilo .nota-ia,.hilo .nota-ia:nth-child(3){grid-column:span 3}}
 @media (max-width:900px){.sobre-grid,.formacion{grid-template-columns:1fr}.sobre-grid .foto{max-width:300px;justify-self:start}}
 @media (max-width:640px){.grupos{grid-template-columns:1fr}.hilo{display:flex;flex-direction:column;gap:32px}}
+
+/* resultados: gráficos y animaciones */
+.r{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:clamp(16px,2.4vw,32px);align-items:start;align-content:start}
+.r>*{grid-column:1}
+.r>.r-graf{grid-column:2;grid-row:1 / span 3;width:clamp(120px,12.5vw,160px);height:auto;overflow:visible;margin-top:4px}
+.r0>.r-graf{width:clamp(130px,15vw,190px)}
+.r6>.r-graf{width:clamp(130px,13vw,165px)}
+.mini li{display:flex;flex-direction:column}
+.mini .mini-g{width:min(100%,128px);height:auto;margin-top:14px;overflow:visible}
+.honesto{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px 28px;align-items:center}
+.honesto .dip-g{width:clamp(110px,12vw,150px);height:auto;overflow:visible}
+.honesto p{margin-bottom:0}
+.r-graf text,.mini-g text,.dip-g text{user-select:none}
+/* estado inicial solo con JS; sin JS o con movimiento reducido se ve todo terminado */
+.js .res .b{transform-box:fill-box;transform-origin:50% 100%;transform:scaleY(0);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+.js .res .hb{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+.js .res .arc{stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset 1.2s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+.js .res .ln{stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset 1.4s ease-out var(--d,0s)}
+.js .res .pt{opacity:0;transition:opacity .4s ease var(--d,0s)}
+.js .res .coin{opacity:0;transform:translateY(-34px);transition:transform .55s cubic-bezier(.3,1.4,.5,1) var(--d,0s),opacity .3s ease var(--d,0s)}
+.js .honesto .ln{stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset 1.4s ease-out .2s}
+.js .res .en-vista .b,.js .res .en-vista .hb{transform:none}
+.js .res .en-vista .arc{stroke-dashoffset:calc(100 - var(--v))}
+.js .res .en-vista .ln,.js .honesto.en-vista .ln{stroke-dashoffset:0}
+.js .res .en-vista .pt{opacity:1}
+.js .res .en-vista .coin{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .js .res .b,.js .res .hb{transform:none;transition:none}
+  .js .res .arc{stroke-dashoffset:calc(100 - var(--v));transition:none}
+  .js .res .ln,.js .honesto .ln{stroke-dashoffset:0;transition:none}
+  .js .res .pt,.js .res .coin{opacity:1;transform:none;transition:none}
+}
+@media (max-width:900px){.honesto{grid-template-columns:1fr}.honesto .dip-g{width:130px}}
+@media (max-width:560px){
+  .r{grid-template-columns:minmax(0,1fr) 104px}
+  .r>.r-graf,.r0>.r-graf,.r6>.r-graf{width:100%;max-width:120px}
+  .mini .mini-g{width:min(100%,110px)}
+}
+
+.r2 .fig,.r3 .fig,.r4 .fig{font-size:clamp(2.2rem,4.2vw,3.6rem)}
+.r-graf text{font-size:inherit}
