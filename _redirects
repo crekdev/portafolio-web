@@ -1,0 +1,6 @@
+# Una sola URL por página: las variantes duplicadas redirigen (301) a la canónica
+/index.html            /                      301!
+/index                 /                      301!
+/sobre-mi              /sobre-mi.html         301!
+/casos-de-exito        /casos-de-exito.html   301!
+/gracias               /gracias.html          301!
